@@ -4,6 +4,13 @@
 }
 
 /* Header and navigation styles */
+header {
+    background: #FFF8F3;
+    background-image: url(../images/images/header_bg.png), url(../images/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -21,10 +28,140 @@ nav {
 
 nav ul {
     display: flex;
-
+    align-items: center;
 }
 
 nav li {
     list-style: none;
     margin-left: 50px;
+}
+
+.btn-primary {
+    background: #FD6E0A;
+    border-style: none;
+    border-radius: 5px;
+    height: 40px;
+    color: var(--white-color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 180px;
+
+}
+
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* Main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+    background: #FFF8F3;
+    margin-top: 130px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-description {
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    padding: 30px 150px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.about-info {
+    padding-bottom: 130px;
+}
+
+.info-name {
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+
+}
+
+.info-description {
+    color: var(--dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Skills styles */
+.skills {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.skills-description {
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    padding-bottom: 80px;
+}
+
+.skills-info-container {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 160px;
+
+}
+
+.skill-info {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px;
+    margin-top: 50px;
+    padding: 30px;
+
+}
+
+.skill-name {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.skill-description {
+    color: var(--dark-03, #757575);
+    font-size: 16px;
 }
