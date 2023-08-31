@@ -14,7 +14,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 180px;
+    padding: 40px 180px;
 }
 
 .header-name {
@@ -42,6 +42,23 @@ nav li {
     border-radius: 5px;
     height: 40px;
     color: var(--white-color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.fa-regular,
+.fa-solid {
+    padding-right: 13px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    width: 160px;
+    height: 45px;
+    margin-left: 40px;
+    color: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
 }
@@ -203,4 +220,43 @@ main {
 .description {
     color: var(--Dark-03, #757575);
     padding-bottom: 10px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+/* Contact styles */
+.contact {
+    display: flex;
+    gap: 120px;
+    background: #FFF8F3;
+    padding: 150px 230px;
+}
+
+.contact .section-title {
+    text-align: start;
+}
+
+.message input {
+    height: 64px;
+    width: 100%;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.message textarea {
+    width: 100%;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.fa-brands {
+    color: #FD6E0A;
+    padding-top: 30px;
+    padding-right: 24px;
 }
